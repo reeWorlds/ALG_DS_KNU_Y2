@@ -31,17 +31,17 @@ int main()
     }
 
     int num1 = arr[rng() % n];
-    int idx1 = lin_search(arr, n, num1); 
+    int idx1 = lin_search(arr, n, num1);
     cout << "Index of num1: " << idx1 << "\n";
     cout << "Performed " << cnt_ops << " operations\n";
 
     int num2 = arr[rng() % 10];
-    int idx2 = lin_search(arr, n, num2); 
+    int idx2 = lin_search(arr, n, num2);
     cout << "Index of num2: " << idx2 << "\n";
     cout << "Performed " << cnt_ops << " operations\n";
 
     int num3 = rng() % 1'000'000;
-    int idx3 = lin_search(arr, n, num3); 
+    int idx3 = lin_search(arr, n, num3);
     cout << "Index of num3: " << idx3 << "\n";
     cout << "Performed " << cnt_ops << " operations\n";
 
